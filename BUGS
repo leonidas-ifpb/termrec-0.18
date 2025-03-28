@@ -1,0 +1,25 @@
+* win32/play: constant full-screen redraw
+
+* win32/play: full prefetch
+
+* win32/play: ugly cursor
+
+* win32/rec: on Win95/98/ME, scrolling does a full screen dump
+
+* win32/play: no way to select the plugin except for file extensions
+
+* replay_export(): should record UTF-8ness and add an option to dump the
+  initial screen
+
+* tty: not all control sequences are supported.  It'd be nice to have a
+  good subset of http://invisible-island.net/xterm/ctlseqs/ctlseqs.html
+  implemented.
+
+* win32/play: font selection being hidden in the window's sysmenu is
+  unobvious, and can't be accessed under Wine at all.
+
+* win32/play: no glyph-borrowing limits displayable characters to the
+  selected font only
+
+* win32/play: no combining characters; pointless to even think about
+  them without using some modern text display functions...
